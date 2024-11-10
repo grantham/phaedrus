@@ -1,0 +1,10 @@
+#!/bin/sh
+if [ -f fabulaeAesopiae.epub ]; then
+    rm fabulaeAesopiae.epub
+fi
+
+cd ./pub
+
+zip -r ../fabulaeAesopiae.epub ./META-INF/ ./OEBPS/ ./mimetype
+
+cd -

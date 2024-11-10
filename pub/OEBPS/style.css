@@ -1,0 +1,90 @@
+
+div#book-title {
+    text-align: center;
+}
+
+#book-title div p h2 h1 {
+
+}
+
+div#publisher {
+    text-align: center;
+}
+
+span.author {
+    font-style:italic;
+}
+
+
+div.poem {
+    padding: 2em;
+    margin: 2em;
+}
+
+span.ln {
+    
+    /**display: block;*/
+}
+
+span.ln-no {
+    text-align: right;
+    padding-left: 4em;
+    margin-left: 4em;
+}
+
+figure#frontispiece {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+figcaption#frontis-caption {
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+div#blurbs {
+    padding: 4em;
+    margin: 4em;
+}
+
+dd.cite {
+    font: italic smaller sans-serif;
+}
+
+
+div#preface {
+    max-width: 46em;
+    padding: 2em 4em 2em 4em;
+    margin: 2em 4em 2em 4em;
+}
+
+.prose {
+    text-indent: 1em;
+}
+
+.verse {
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin: 0.5em 0.5em 0.5em 2em;
+    font: smaller sans-serif;
+}
+
+span.section {
+    font: bold larger serif;
+}
+
+.liber {
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin: 0.5em 0.5em 0.5em 2em;
+    text-align:center;
+}
+
+.poem-title {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    font-variant: common-ligatures small-caps;
+}

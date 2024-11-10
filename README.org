@@ -1,0 +1,14 @@
+* Fabulae Aesopiae
+
+This project provides an epub-3-formatted ebook of Fabulae Aesopiae by Phaedrus (15 BC-50 AD).
+
+The source of this edition is Teubner's 1876 edition, edited by L Mueller and includes a brief biography, a discussion of Phadrus' verse and idiosynchracies, and an index.
+
+The text itself was sourced from Tufts University's [[http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a1999.02.0118][Perseus Project]] which furnishes TEI-encoded sources.
+The forward and index were drawn from the [[https://archive.org/details/PhaedriFabulaeAesopiaeRecogn1873/mode/2up][Teubner edition]] at archive.org.
+
+* Building
+
+To build the epub:
+
+=$ ./publish=

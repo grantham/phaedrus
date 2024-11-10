@@ -1,0 +1,79 @@
+<!--
+XML file that handles the navigational table of contents in the e-book
+
+It is used to establish navigation between elements within the book and where the elements appear within the navigational table of contents.
+
+The use of .ncx files has been deprecated as of EPUB3, but many publishers still include it so that EPUB2 reading systems will still be able to process the document.
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta name="dtb:uid" content="urn:uuid:54d963ab-f6fd-4d0b-81c4-623658cae31b" />
+    <meta name="dtb:depth" content="1" />
+    <meta name="dtb:totalPageCount" content="0" />
+    <meta name="dtb:maxPageNumber" content="0" />
+    <meta name="cover" content="cover-img" />
+  </head>
+  <docTitle>
+    <text>Fabulae Aesopiae</text>
+  </docTitle>
+  <navMap>
+	
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text></text>
+      </navLabel>
+      <content src="titlepage.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-1">
+      <navLabel>
+        <text>Liber I</text>
+      </navLabel>
+      <content src="001.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-2">
+      <navLabel>
+        <text>Liber II</text>
+      </navLabel>
+      <content src="002.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-3">
+      <navLabel>
+        <text>Liber III</text>
+      </navLabel>
+      <content src="003.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-4">
+      <navLabel>
+        <text>Liber IV</text>
+      </navLabel>
+      <content src="004.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-5">
+      <navLabel>
+        <text>Liber V</text>
+      </navLabel>
+      <content src="005.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-appendix">
+      <navLabel>
+        <text>APPENDIX: Fabulae Novae</text>
+      </navLabel>
+      <content src="appendix.xhtml" />
+    </navPoint>
+    
+    <navPoint id="navPoint-index">
+      <navLabel>
+        <text>INDEX POEMATUM</text>
+      </navLabel>
+      <content src="index.xhtml" />
+    </navPoint>
+    
+  </navMap>
+</ncx>
