@@ -1,3 +1,20 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  /* Note kindle hates margin:0 ! (or margin-left or margin-top set) it inserts newlines galore */
+  /* margin: 0 */
+  margin-right: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  /* font: inherit */
+  vertical-align: baseline;
+}
+
+/* end reset */
+@page {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
 
 div#book-title {
     text-align: center;
@@ -17,19 +34,32 @@ span.author {
 
 
 div.poem {
-    padding: 2em;
-    margin: 2em;
+    padding: 0px 0px 0px 16px;
+    margin:  0px 0px 0px 16px;
+}
+
+.poem br {
+    
+   display: block;
+   margin: 0px 0;
+}
+
+
+.poem p {
+    padding: 0px; 
+    margin: 0px;
 }
 
 span.ln {
     
     /**display: block;*/
+     margin: 0px;
 }
 
 span.ln-no {
     text-align: right;
-    padding-left: 4em;
-    margin-left: 4em;
+    padding-left: 64px;
+    margin-left: 64px;
 }
 
 figure#frontispiece {
@@ -47,8 +77,8 @@ figcaption#frontis-caption {
 }
 
 div#blurbs {
-    padding: 4em;
-    margin: 4em;
+    padding: 64px;
+    margin: 64px;
 }
 
 dd.cite {
@@ -57,18 +87,18 @@ dd.cite {
 
 
 div#preface {
-    max-width: 46em;
-    padding: 2em 4em 2em 4em;
-    margin: 2em 4em 2em 4em;
+    max-width: 700px;
+    padding: 16px 64px 16px 64px;
+    margin: 16px 64px 16px 64px;
 }
 
 .prose {
-    text-indent: 1em;
+    text-indent: 16px;
 }
 
 .verse {
-    padding: 0.5em 0.5em 0.5em 2em;
-    margin: 0.5em 0.5em 0.5em 2em;
+    padding: 8px 8px 8px 16px;
+    margin: 8px 8px 8px 16px;
     font: smaller sans-serif;
 }
 
@@ -77,8 +107,8 @@ span.section {
 }
 
 .liber {
-    padding: 0.5em 0.5em 0.5em 2em;
-    margin: 0.5em 0.5em 0.5em 2em;
+    padding: 8px 8px 8px 16px;
+    margin: 8px 8px 8px 16px;
     text-align:center;
 }
 
