@@ -95,11 +95,16 @@ div#preface {
 
 .prose {
     text-indent: 16px;
+    padding: 0px 0px 0px 16px;
+}
+
+#preface >  h2 h3 {
+    text-indent: 16px;
+    padding: 8px 8px 8px 16px;
 }
 
 .verse {
-    padding: 8px 8px 8px 16px;
-    margin: 8px 8px 8px 16px;
+    padding: 16px 16px 16px 32px;
     font: smaller sans-serif;
 }
 
