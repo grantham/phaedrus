@@ -18,19 +18,80 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
     <text>Fabulae Aesopiae</text>
   </docTitle>
   <navMap>
-	
+
+
+    <navPoint id="toc-frontispiece">
+      <navLabel><text>Frontispiece</text></navLabel><content
+    src="frontispiece.xhtml"/></navPoint>
+
+    
     <navPoint id="navPoint-0">
       <navLabel>
         <text></text>
       </navLabel>
       <content src="titlepage.xhtml" />
     </navPoint>
+
     
+    <navPoint id="toc-blurbs"><navLabel><text>loci de Phaedro</text></navLabel><content src="./blurbsAntiquaFuit.xhtml"/></navPoint>
+
+
+    <navPoint id="toc-0">
+      <navLabel><text>DE PHAEDRI VITA ET SCRIPTIS</text></navLabel>
+      <content src="dePhaedro.xhtml"/>
+      
+      
+      <navPoint
+	  id="toc-0-vita">
+	<navLabel><text>Vita</text></navLabel><content
+	src="dePhaedro.xhtml#vita"/></navPoint>
+	<navPoint
+	    id="toc-0-breviarium">
+	  <navLabel><text>Breviarium</text></navLabel><content
+	  src="dePhaedro.xhtml#breviarium"/></navPoint>
+
+    </navPoint>
+
     <navPoint id="navPoint-1">
       <navLabel>
         <text>Liber I</text>
       </navLabel>
       <content src="001.xhtml" />
+      
+<navPoint id="toc-1-0"><navLabel><text>PROLOGUS</text></navLabel><content src="001.xhtml#prologus"/></navPoint>	
+<navPoint id="toc-1-1"><navLabel><text>1. Lupus et agnus.</text></navLabel><content src="001.xhtml#fabula-1"/></navPoint>
+<navPoint id="toc-1-2"><navLabel><text>2. Ranae regem petierunt.</text></navLabel><content src="001.xhtml#fabula-2"/></navPoint>
+<navPoint id="toc-1-3"><navLabel><text>3. Graculus superbus et pavo.</text></navLabel><content src="001.xhtml#fabula-3"/></navPoint>
+<navPoint id="toc-1-4"><navLabel><text>4. Canis per fluvium carnem ferens.</text></navLabel><content src="001.xhtml#fabula-4"/></navPoint>
+<navPoint id="toc-1-5"><navLabel><text>5. Vacca, capella, ovis, et leo.</text></navLabel><content src="001.xhtml#fabula-5"/></navPoint>
+<navPoint id="toc-1-6"><navLabel><text>6. Ranae ad solem.</text></navLabel><content src="001.xhtml#fabula-6"/></navPoint>
+<navPoint id="toc-1-7"><navLabel><text>7. Vulpis ad personam tragicam.</text></navLabel><content src="001.xhtml#fabula-7"/></navPoint>
+<navPoint id="toc-1-8"><navLabel><text>8. Lupus et gruis.</text></navLabel><content src="001.xhtml#fabula-8"/></navPoint>
+<navPoint id="toc-1-9"><navLabel><text>9. Passer ad leporem consiliator.</text></navLabel><content src="001.xhtml#fabula-9"/></navPoint>
+<navPoint id="toc-1-10"><navLabel><text>10. Lupus et vulpes iudice simio.</text></navLabel><content src="001.xhtml#fabula-10"/></navPoint>
+<navPoint id="toc-1-11"><navLabel><text>11. Asinus et leo venantes.</text></navLabel><content src="001.xhtml#fabula-11"/></navPoint>
+<navPoint id="toc-1-12"><navLabel><text>12. Cervus ad fontem.</text></navLabel><content src="001.xhtml#fabula-12"/></navPoint>
+<navPoint id="toc-1-13"><navLabel><text>13. Vulpes et corvus.</text></navLabel><content src="001.xhtml#fabula-13"/></navPoint>
+<navPoint id="toc-1-14"><navLabel><text>14. Ex sutore medicus.</text></navLabel><content src="001.xhtml#fabula-14"/></navPoint>
+<navPoint id="toc-1-15"><navLabel><text>15. Asinus ad senem pastorem.</text></navLabel><content src="001.xhtml#fabula-15"/></navPoint>
+<navPoint id="toc-1-16"><navLabel><text>16. Ovis, cervus, et lupus.</text></navLabel><content src="001.xhtml#fabula-16"/></navPoint>
+<navPoint id="toc-1-17"><navLabel><text>17. Ovis, canis, et lupus.</text></navLabel><content src="001.xhtml#fabula-17"/></navPoint>
+<navPoint id="toc-1-18"><navLabel><text>18. Mulier parturiens.</text></navLabel><content src="001.xhtml#fabula-18"/></navPoint>
+<navPoint id="toc-1-19"><navLabel><text>19. Canis parturiens.</text></navLabel><content src="001.xhtml#fabula-19"/></navPoint>
+<navPoint id="toc-1-20"><navLabel><text>20. Canes famelici.</text></navLabel><content src="001.xhtml#fabula-20"/></navPoint>
+<navPoint id="toc-1-21"><navLabel><text>21. Leo senex, aper, taurus, et asinus.</text></navLabel><content src="001.xhtml#fabula-21"/></navPoint>
+<navPoint id="toc-1-22"><navLabel><text>22. Mustela et homo</text></navLabel><content src="001.xhtml#fabula-22"/></navPoint>
+<navPoint id="toc-1-23"><navLabel><text>23. Canis fidelis.</text></navLabel><content src="001.xhtml#fabula-23"/></navPoint>
+<navPoint id="toc-1-24"><navLabel><text>24. Rana rupta et bos.</text></navLabel><content src="001.xhtml#fabula-24"/></navPoint>
+<navPoint id="toc-1-25"><navLabel><text>25. Canes et corcodili.</text></navLabel><content src="001.xhtml#fabula-25"/></navPoint>
+<navPoint id="toc-1-26"><navLabel><text>26. Vulpes et ciconia.</text></navLabel><content src="001.xhtml#fabula-26"/></navPoint>
+<navPoint id="toc-1-27"><navLabel><text>27. Canis et thesaurus et vulturius.</text></navLabel><content src="001.xhtml#fabula-27"/></navPoint>
+<navPoint id="toc-1-28"><navLabel><text>28. Vulpes et aquila.</text></navLabel><content src="001.xhtml#fabula-28"/></navPoint>
+<navPoint id="toc-1-29"><navLabel><text>29. Asinus inridens aprum.</text></navLabel><content src="001.xhtml#fabula-29"/></navPoint>
+<navPoint id="toc-1-30"><navLabel><text>30. Ranae metuentes taurorum proelia.</text></navLabel><content src="001.xhtml#fabula-30"/></navPoint>
+<navPoint id="toc-1-31"><navLabel><text>31. Milvus et columbae.</text></navLabel><content src="001.xhtml#fabula-31"/></navPoint>
+
+      
     </navPoint>
     
     <navPoint id="navPoint-2">
@@ -38,6 +99,17 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
         <text>Liber II</text>
       </navLabel>
       <content src="002.xhtml" />
+<navPoint id="toc-2-0"><navLabel><text>Prologus - Auctor.</text></navLabel><content src="002.xhtml#prologus"/></navPoint>
+<navPoint id="toc-2-1"><navLabel><text>1. Iuvencus, leo, et praedator.</text></navLabel><content src="002.xhtml#fabula-1"/></navPoint>
+<navPoint id="toc-2-2"><navLabel><text>2. Anus diligens iuvenem, item puella.</text></navLabel><content src="002.xhtml#fabula-2"/></navPoint>
+<navPoint id="toc-2-3"><navLabel><text>3. Aesopus ad quendam de successu improborum.</text></navLabel><content src="002.xhtml#fabula-3"/></navPoint>
+<navPoint id="toc-2-4"><navLabel><text>4. Aquila, feles, et aper.</text></navLabel><content src="002.xhtml#fabula-4"/></navPoint>
+<navPoint id="toc-2-5"><navLabel><text>5. Caesar ad atriensem.</text></navLabel><content src="002.xhtml#fabula-5"/></navPoint>
+<navPoint id="toc-2-6"><navLabel><text>6. Aquila et cornix.</text></navLabel><content src="002.xhtml#fabula-6"/></navPoint>
+<navPoint id="toc-2-7"><navLabel><text>7. Muli duo et vectores.</text></navLabel><content src="002.xhtml#fabula-7"/></navPoint>
+<navPoint id="toc-2-8"><navLabel><text>8. Cervus ad boves.</text></navLabel><content src="002.xhtml#fabula-8"/></navPoint>
+<navPoint id="toc-2-fin"><navLabel><text>Epilogus - Auctor</text></navLabel><content src="002.xhtml#epilogus"/></navPoint>
+      
     </navPoint>
     
     <navPoint id="navPoint-3">
@@ -45,6 +117,29 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
         <text>Liber III</text>
       </navLabel>
       <content src="003.xhtml" />
+
+<navPoint id="toc-3-0"><navLabel><text>Prologus - Phaedrus ad Eutychum.</text></navLabel><content src="003.xhtml#prologus"/></navPoint>
+<navPoint id="toc-3-1"><navLabel><text>1. Anus ad amphoram.</text></navLabel><content src="003.xhtml#fabula-1"/></navPoint>
+<navPoint id="toc-3-2"><navLabel><text>2. Panthera et pastores.</text></navLabel><content src="003.xhtml#fabula-2"/></navPoint>
+<navPoint id="toc-3-3"><navLabel><text>3. Aesopus et rusticus.</text></navLabel><content src="003.xhtml#fabula-3"/></navPoint>
+<navPoint id="toc-3-4"><navLabel><text>4. Lanius et simius.</text></navLabel><content src="003.xhtml#fabula-4"/></navPoint>
+<navPoint id="toc-3-5"><navLabel><text>5. Aesopus et petulans.</text></navLabel><content src="003.xhtml#fabula-5"/></navPoint>
+<navPoint id="toc-3-6"><navLabel><text>6. Musca et mula.</text></navLabel><content src="003.xhtml#fabula-6"/></navPoint>
+<navPoint id="toc-3-7"><navLabel><text>7. Lupus ad canem.</text></navLabel><content src="003.xhtml#fabula-7"/></navPoint>
+<navPoint id="toc-3-8"><navLabel><text>8. Soror et frater.</text></navLabel><content src="003.xhtml#fabula-8"/></navPoint>
+<navPoint id="toc-3-9"><navLabel><text>9. Socrates ad amicos.</text></navLabel><content src="003.xhtml#fabula-9"/></navPoint>
+<navPoint id="toc-3-10"><navLabel><text>10. Poeta</text></navLabel><content src="003.xhtml#fabula-10"/></navPoint>
+<navPoint id="toc-3-11"><navLabel><text>11. Eunuchus ad improbum.</text></navLabel><content src="003.xhtml#fabula-11"/></navPoint>
+<navPoint id="toc-3-12"><navLabel><text>12. Pullus ad margaritam.</text></navLabel><content src="003.xhtml#fabula-12"/></navPoint>
+<navPoint id="toc-3-13"><navLabel><text>13. Apes et fuci vespa iudice.</text></navLabel><content src="003.xhtml#fabula-13"/></navPoint>
+<navPoint id="toc-3-14"><navLabel><text>14. De lusu et severitate.</text></navLabel><content src="003.xhtml#fabula-14"/></navPoint>
+<navPoint id="toc-3-15"><navLabel><text>15. Canis ad agnum.</text></navLabel><content src="003.xhtml#fabula-15"/></navPoint>
+<navPoint id="toc-3-16"><navLabel><text>16. Cicada et noctua.</text></navLabel><content src="003.xhtml#fabula-16"/></navPoint>
+<navPoint id="toc-3-17"><navLabel><text>17. Arbores in deorum tutela.</text></navLabel><content src="003.xhtml#fabula-17"/></navPoint>
+<navPoint id="toc-3-18"><navLabel><text>18. Pavo ad Iunonem de voce sua.</text></navLabel><content src="003.xhtml#fabula-18"/></navPoint>
+<navPoint id="toc-3-19"><navLabel><text>19. Aesopus respondet garrulo.</text></navLabel><content src="003.xhtml#fabula-19"/></navPoint>
+<navPoint id="toc-3-fin"><navLabel><text>Epilogus - Poeta.</text></navLabel><content src="003.xhtml#epilogus"/></navPoint>
+      
     </navPoint>
     
     <navPoint id="navPoint-4">
@@ -52,6 +147,35 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
         <text>Liber IV</text>
       </navLabel>
       <content src="004.xhtml" />
+
+<navPoint id="toc-4-0"><navLabel><text>PROLOGUS - Poeta ad Particulonem.</text></navLabel><content src="004.xhtml#prologus"/></navPoint>
+<navPoint id="toc-4-1"><navLabel><text>1. Asinus et Galli.</text></navLabel><content src="004.xhtml#fabula-1"/></navPoint>
+<navPoint id="toc-4-2"><navLabel><text>2. Poeta.</text></navLabel><content src="004.xhtml#fabula-2"/></navPoint>
+<navPoint id="toc-4-3"><navLabel><text>3. De vulpe et uva.</text></navLabel><content src="004.xhtml#fabula-3"/></navPoint>
+<navPoint id="toc-4-4"><navLabel><text>4. Equus et aper.</text></navLabel><content src="004.xhtml#fabula-4"/></navPoint>
+<navPoint id="toc-4-5"><navLabel><text>5. Poeta.</text></navLabel><content src="004.xhtml#fabula-5"/></navPoint>
+<navPoint id="toc-4-6"><navLabel><text>6. Pugna murium et mustelarum.</text></navLabel><content src="004.xhtml#fabula-6"/></navPoint>
+<navPoint id="toc-4-7"><navLabel><text>7. Phaedrus.</text></navLabel><content src="004.xhtml#fabula-7"/></navPoint>
+<navPoint id="toc-4-8"><navLabel><text>8. Serpens ad fabrum ferrarium.</text></navLabel><content src="004.xhtml#fabula-8"/></navPoint>
+<navPoint id="toc-4-9"><navLabel><text>9. Vulpes et caper.</text></navLabel><content src="004.xhtml#fabula-9"/></navPoint>
+<navPoint id="toc-4-10"><navLabel><text>10. De vitiis hominum.</text></navLabel><content src="004.xhtml#fabula-10"/></navPoint>
+<navPoint id="toc-4-11"><navLabel><text>11. Fur et lucerna.</text></navLabel><content src="004.xhtml#fabula-11"/></navPoint>
+<navPoint id="toc-4-12"><navLabel><text>12. Malas esse divitias.</text></navLabel><content src="004.xhtml#fabula-12"/></navPoint>
+<navPoint id="toc-4-13"><navLabel><text>13. De leone regnante.</text></navLabel><content src="004.xhtml#fabula-13"/></navPoint>
+<navPoint id="toc-4-14"><navLabel><text>14. Prometheus.</text></navLabel><content src="004.xhtml#fabula-14"/></navPoint>
+<navPoint id="toc-4-15"><navLabel><text>15. Idem.</text></navLabel><content src="004.xhtml#fabula-15"/></navPoint>
+<navPoint id="toc-4-16"><navLabel><text>16. De capris barbatis.</text></navLabel><content src="004.xhtml#fabula-16"/></navPoint>
+<navPoint id="toc-4-17"><navLabel><text>17. De fortunis hominum.</text></navLabel><content src="004.xhtml#fabula-17"/></navPoint>
+<navPoint id="toc-4-18"><navLabel><text>18. Canum legati ad Iovem.</text></navLabel><content src="004.xhtml#fabula-18"/></navPoint>
+<navPoint id="toc-4-19"><navLabel><text>19. Serpens. Misericordia nociva.</text></navLabel><content src="004.xhtml#fabula-19"/></navPoint>
+<navPoint id="toc-4-20"><navLabel><text>20. Vulpes et draco.</text></navLabel><content src="004.xhtml#fabula-20"/></navPoint>
+<navPoint id="toc-4-21"><navLabel><text>21. Phaedrus.</text></navLabel><content src="004.xhtml#fabula-21"/></navPoint>
+<navPoint id="toc-4-22"><navLabel><text>22. De Simonide.</text></navLabel><content src="004.xhtml#fabula-22"/></navPoint>
+<navPoint id="toc-4-23"><navLabel><text>23. Mons parturiens.</text></navLabel><content src="004.xhtml#fabula-23"/></navPoint>
+<navPoint id="toc-4-24"><navLabel><text>24. Formica et musca.</text></navLabel><content src="004.xhtml#fabula-24"/></navPoint>
+<navPoint id="toc-4-25"><navLabel><text>25. Poeta.</text></navLabel><content src="004.xhtml#fabula-25"/></navPoint>
+<navPoint id="toc-4-fin"><navLabel><text>Epilogus - Poeta ad Particulonem.</text></navLabel><content src="004.xhtml#epilogus"/></navPoint>
+      
     </navPoint>
     
     <navPoint id="navPoint-5">
@@ -59,6 +183,19 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
         <text>Liber V</text>
       </navLabel>
       <content src="005.xhtml" />
+
+      <navPoint id="toc-5-0"><navLabel><text>Prologus - Idem poeta.</text></navLabel><content src="005.xhtml#prologus"/></navPoint>
+<navPoint id="toc-5-1"><navLabel><text>1. Demetrius rex et Menander poeta: Quomodo saepe fallatur hominum iudicium.</text></navLabel><content src="005.xhtml#fabula-1"/></navPoint>
+<navPoint id="toc-5-2"><navLabel><text>2. Viatores et latro.</text></navLabel><content src="005.xhtml#fabula-2"/></navPoint>
+<navPoint id="toc-5-3"><navLabel><text>3. Calvus et musca.</text></navLabel><content src="005.xhtml#fabula-3"/></navPoint>
+<navPoint id="toc-5-4"><navLabel><text>4. Asinus et porcellus.</text></navLabel><content src="005.xhtml#fabula-4"/></navPoint>
+<navPoint id="toc-5-5"><navLabel><text>5. Scurra et rusticus.</text></navLabel><content src="005.xhtml#fabula-5"/></navPoint>
+<navPoint id="toc-5-6"><navLabel><text>6. Calvus et quidam aeque pilis defectus.</text></navLabel><content src="005.xhtml#fabula-6"/></navPoint>
+<navPoint id="toc-5-7"><navLabel><text>7. Princeps tibicen.</text></navLabel><content src="005.xhtml#fabula-7"/></navPoint>
+<navPoint id="toc-5-8"><navLabel><text>8. Tempus.</text></navLabel><content src="005.xhtml#fabula-8"/></navPoint>
+<navPoint id="toc-5-9"><navLabel><text>9. Taurus et vitulus.</text></navLabel><content src="005.xhtml#fabula-9"/></navPoint>
+<navPoint id="toc-5-10"><navLabel><text>10. Canis et sus et venator.</text></navLabel><content src="005.xhtml#fabula-10"/></navPoint>
+      
     </navPoint>
     
     <navPoint id="navPoint-appendix">
@@ -66,6 +203,38 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
         <text>APPENDIX: Fabulae Novae</text>
       </navLabel>
       <content src="appendix.xhtml" />
+<navPoint id="toc-app-1"><navLabel><text>1. Simius et vulpes: Avarum etiam quod sibi superest non libenter dare.</text></navLabel><content src="appendix.xhtml#fabula-1"/></navPoint>
+<navPoint id="toc-app-2"><navLabel><text>2. Auctor: Non esse plus aequo petendum.</text></navLabel><content src="appendix.xhtml#fabula-2"/></navPoint>
+<navPoint id="toc-app-3"><navLabel><text>3. Mercurius et duae mulieres: De eodem alia fabella.</text></navLabel><content src="appendix.xhtml#fabula-3"/></navPoint>
+<navPoint id="toc-app-4"><navLabel><text>4. Prometheus et Dolus: De veritate et mendacio.</text></navLabel><content src="appendix.xhtml#fabula-4"/></navPoint>
+<navPoint id="toc-app-5"><navLabel><text>5. Auctor: Sensum aestimandum esse non verba.</text></navLabel><content src="appendix.xhtml#fabula-5"/></navPoint>
+<navPoint id="toc-app-6"><navLabel><text>6. Auctor.</text></navLabel><content src="appendix.xhtml#fabula-6"/></navPoint>
+<navPoint id="toc-app-7"><navLabel><text>7. Aesopus et scriptor.</text></navLabel><content src="appendix.xhtml#fabula-7"/></navPoint>
+<navPoint id="toc-app-8"><navLabel><text>8. Pompeius Magnus et eius miles: Quam difficile sit hominem nosse.</text></navLabel><content src="appendix.xhtml#fabula-8"/></navPoint>
+<navPoint id="toc-app-9"><navLabel><text>9. Iuno, Venus et gallina.</text></navLabel><content src="appendix.xhtml#fabula-9"/></navPoint>
+<navPoint id="toc-app-10"><navLabel><text>10. Paterfamilias et Aesopus: Quomodo domanda sit ferox iuventus.</text></navLabel><content src="appendix.xhtml#fabula-10"/></navPoint>
+<navPoint id="toc-app-11"><navLabel><text>11. Aesopus et victor gymnicus: Quomodo conprimatur aliquando iactantia.</text></navLabel><content src="appendix.xhtml#fabula-11"/></navPoint>
+<navPoint id="toc-app-12"><navLabel><text>12. Asinus ad lyram.</text></navLabel><content src="appendix.xhtml#fabula-12"/></navPoint>
+<navPoint id="toc-app-13"><navLabel><text>13. Mulier vidua et miles: Quanta sit inconstantia et libido mulierum.</text></navLabel><content src="appendix.xhtml#fabula-13"/></navPoint>
+<navPoint id="toc-app-14"><navLabel><text>14. Duo iuvenes sponsi dives et pauper: Fortunam interdum praeter spem hominibus favere.</text></navLabel><content src="appendix.xhtml#fabula-14"/></navPoint>
+<navPoint id="toc-app-15"><navLabel><text>15. Aesopus et domina: Quam noceat saepe verum dicere.</text></navLabel><content src="appendix.xhtml#fabula-15"/></navPoint>
+<navPoint id="toc-app-16"><navLabel><text>16. Gallus lectica a felibus vectus: Nimiam securitatem saepe in periculum homines ducere.</text></navLabel><content src="appendix.xhtml#fabula-16"/></navPoint>
+<navPoint id="toc-app-17"><navLabel><text>17. Scrofa parturiens et lupus: Faciendum prius de homine periculum, quam eius te committas fidei.</text></navLabel><content src="appendix.xhtml#fabula-17"/></navPoint>
+<navPoint id="toc-app-18"><navLabel><text>18. Aesopus et servus profugus: Non esse malo addendum malum.</text></navLabel><content src="appendix.xhtml#fabula-18"/></navPoint>
+<navPoint id="toc-app-19"><navLabel><text>19. Equus quadrigalis in pistrinum venumdatus: Ferendum esse aequo animo quicquid acciderit.</text></navLabel><content src="appendix.xhtml#fabula-19"/></navPoint>
+<navPoint id="toc-app-20"><navLabel><text>20. Ursus esuriens.</text></navLabel><content src="appendix.xhtml#fabula-20"/></navPoint>
+<navPoint id="toc-app-21"><navLabel><text>21. Viator et corvus: Verbis saepenumero homines decipi solere.</text></navLabel><content src="appendix.xhtml#fabula-21"/></navPoint>
+<navPoint id="toc-app-22"><navLabel><text>22. Pastor et capella: Nihil ita occultum esse, quod non reveletur.</text></navLabel><content src="appendix.xhtml#fabula-22"/></navPoint>
+<navPoint id="toc-app-23"><navLabel><text>23. Serpens et lacerta: Ubi leonis pellis deficit, vulpinam insuendam esse, hoc est, ubi deficiunt vires, astu utendum.</text></navLabel><content src="appendix.xhtml#fabula-23"/></navPoint>
+<navPoint id="toc-app-24"><navLabel><text>24. Cornix et ovis: Multos lacessere debiles et cedere fortibus.</text></navLabel><content src="appendix.xhtml#fabula-24"/></navPoint>
+<navPoint id="toc-app-25"><navLabel><text>25. Servus et dominus: Nullum maledictum esse gravius conscientia.</text></navLabel><content src="appendix.xhtml#fabula-25"/></navPoint>
+<navPoint id="toc-app-26"><navLabel><text>26. Lepus et bubulcus: Multos verbis blandos esse, pectore infideles.</text></navLabel><content src="appendix.xhtml#fabula-26"/></navPoint>
+<navPoint id="toc-app-27"><navLabel><text>27. Meretrix et iuvenis: Multa esse nobis iocunda quae tamen sunt incommoda.</text></navLabel><content src="appendix.xhtml#fabula-27"/></navPoint>
+<navPoint id="toc-app-28"><navLabel><text>28. Fiber.</text></navLabel><content src="appendix.xhtml#fabula-28"/></navPoint>
+<navPoint id="toc-app-29"><navLabel><text>29. Papilio et vespa: Non praeteritam sed praesentem aspiciendam esse fortunam.</text></navLabel><content src="appendix.xhtml#fabula-29"/></navPoint>
+<navPoint id="toc-app-30"><navLabel><text>30. Terraneola et vulpes: Pravis non esse fidem adhibendam.</text></navLabel><content src="appendix.xhtml#fabula-30"/></navPoint>
+<navPoint id="toc-app-fin"><navLabel><text>Epilogus</text></navLabel><content src="appendix.xhtml#epilogus"/></navPoint>
+      
     </navPoint>
     
     <navPoint id="navPoint-index">
