@@ -71,6 +71,13 @@ figure#frontispiece {
     margin: 5px;
 }
 
+img#frontispiece-image {
+    align:center;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
 figcaption#frontis-caption {
     font: italic smaller sans-serif;
     padding: 3px;
@@ -88,7 +95,7 @@ dd.cite {
 
 
 div#preface {
-    max-width: 700px;
+    max-width: 750px;
     padding: 16px 64px 16px 16px;
     margin: 16px 64px 16px 16px;
 }
