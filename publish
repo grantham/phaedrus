@@ -8,3 +8,12 @@ cd ./pub
 zip -r ../fabulaeAesopiae.epub ./META-INF/ ./OEBPS/ ./mimetype
 
 cd -
+
+if [[ -f fabulaeAesopiae.pdf &&  -f fabulaeAesopiae.epub ]]; then
+    rm fabulaeAesopiae.pdf
+fi
+
+if [ -f fabulaeAesopiae.epub ]; then
+    ebook-convert fabulaeAesopiae.epub fabulaeAesopiae.pdf
+fi
+

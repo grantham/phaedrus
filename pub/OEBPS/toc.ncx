@@ -20,9 +20,15 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
   <navMap>
 
 
+    <navPoint id="nav-toc-cover">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml"/>
+    </navPoint>
+    
     <navPoint id="toc-frontispiece">
-      <navLabel><text>Frontispiece</text></navLabel><content
-    src="frontispiece.xhtml"/></navPoint>
+      <navLabel><text>Frontispiece</text></navLabel>
+      <content src="frontispiece.xhtml"/>
+    </navPoint>
 
     
     <navPoint id="navPoint-0">

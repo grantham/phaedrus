@@ -1,6 +1,7 @@
 # Compiled
 *.elc
 *.epub
+*.pdf
 
 # Packaging
 .cask
