@@ -17,13 +17,16 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
   <docTitle>
     <text>Fabulae Aesopiae</text>
   </docTitle>
+  
   <navMap>
-
-
-    <navPoint id="nav-toc-cover">
-      <navLabel><text>Cover</text></navLabel>
-      <content src="cover.xhtml"/>
+    
+    <navPoint id="navPoint-0">
+      <navLabel>
+        <text>Titulus</text>
+      </navLabel>
+      <content src="titlepage.xhtml" />
     </navPoint>
+
     
     <navPoint id="toc-frontispiece">
       <navLabel><text>Frontispiece</text></navLabel>
@@ -31,15 +34,11 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
     </navPoint>
 
     
-    <navPoint id="navPoint-0">
-      <navLabel>
-        <text></text>
-      </navLabel>
-      <content src="titlepage.xhtml" />
-    </navPoint>
-
     
-    <navPoint id="toc-blurbs"><navLabel><text>loci de Phaedro</text></navLabel><content src="./blurbsAntiquaFuit.xhtml"/></navPoint>
+    <navPoint id="toc-blurbs">
+      <navLabel>
+      <text>De Phaedro Loci</text></navLabel>
+    <content src="./blurbsAntiquaFuit.xhtml"/></navPoint>
 
 
     <navPoint id="toc-0">
