@@ -35,6 +35,11 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
     </navPoint>
 
     
+    <navPoint id="toc-editio">
+      <navLabel><text>De Hac Editio</text></navLabel>
+      <content src="editio.xhtml"/>
+    </navPoint>
+
     
     <navPoint id="toc-blurbs">
       <navLabel>
