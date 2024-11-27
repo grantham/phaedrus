@@ -86,7 +86,7 @@
   </spine>
   <guide>
     <reference type="cover" title="Scrinium" href="cover.xhtml"/>
-    <reference type="title-page" title="Titulus" href="title-page.xhtml"/>
+    <reference type="title-page" title="Titulus" href="titlepage.xhtml"/>
     <reference type="dedication" title="Frontispicium" href="frontispiece.xhtml"/>
     <reference type="copyright-page" title="Frontispicium" href="editio.xhtml"/>
     <reference type="preface" title="De Phaedro Loci" href="blurbsAntiquaFuit.xhtml"/>

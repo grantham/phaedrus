@@ -9,6 +9,7 @@ The forward and index were drawn from the [[https://archive.org/details/PhaedriF
 
 * Building
 
-To build the epub:
+To build the epub and pdf:
 
 =$ ./publish=
+
