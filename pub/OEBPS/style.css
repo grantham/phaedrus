@@ -163,3 +163,31 @@ table.diversarum {
   padding: 10px;
 }
 
+.toc {
+     list-style: none;
+}
+
+.toc li {
+     list-style: lower-roman;
+}
+
+
+#toc-1, #toc-2, #toc-3, #toc-4, #toc-5, #appendix {
+    list-style:upper-roman;
+}
+
+#toc-1 li, #toc-2 li, #toc-3 li, #toc-4 li, #toc-5 li, #appendix li{
+    list-style: none;
+}
+
+#toc-0-vita, #toc-0-breviarium {
+    list-style: none;
+}
+
+ol.toc  a {
+    text-decoration: none;
+}
+
+span.ttl {
+    font-style: italic;
+}
