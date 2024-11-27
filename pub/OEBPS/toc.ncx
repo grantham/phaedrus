@@ -913,5 +913,12 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
       <content src="index.xhtml" />
     </navPoint>
     
+    <navPoint id="navPoint-conspectum">
+      <navLabel>
+        <text>Conspectum Diversarum a Dressleri Editione</text>
+      </navLabel>
+      <content src="conspectum.xhtml" />
+    </navPoint>
+    
   </navMap>
 </ncx>

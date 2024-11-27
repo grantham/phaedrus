@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml version="1.0" encoding="UTF-8"?>
+
 <package unique-identifier="pub-id"
 	 version="3.0"
 	 xmlns="http://www.idpf.org/2007/opf"
@@ -20,15 +20,21 @@
     <meta property="dcterms:modified">2012-11-07T12:00:00Z</meta>
   </metadata>
   <manifest>
+
+    <item id="style" href="style.css" media-type="text/css"/>
+    
+    <item id="cover-img"
+	  href="images/cover.jpg" 
+          properties="cover-image"
+	  media-type="image/jpeg"/>
+    
+    <item id="aesop-img" href="images/Aesop.jpg" media-type="image/jpg"/>
+    <item id="fabulist-img"
+	  href="images/Phaedrus_Fabulist_1745_engraving.jpg"
+	  media-type="image/jpg"/>
+    
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
-    <item id="nav"
-	  href="nav.xhtml"
-          properties="nav"
-	  media-type="application/xhtml+xml" />
-    <item id="ncx"
-	  href="toc.ncx"
-	  media-type="application/x-dtbncx+xml"/>
 
     <item href="frontispiece.xhtml"
 	  id="frontispiece"
@@ -40,6 +46,14 @@
 
     <item href="blurbsAntiquaFuit.xhtml" id="blurbsAntiquaFuit"
 	  media-type="application/xhtml+xml"/>
+    
+    <item id="nav"
+	  href="nav.xhtml"
+          properties="nav"
+	  media-type="application/xhtml+xml" />
+    <item id="ncx"
+	  href="toc.ncx"
+	  media-type="application/x-dtbncx+xml"/>
 
     <item href="dePhaedro.xhtml" id="dePhaedro"
 	  media-type="application/xhtml+xml"/>
@@ -50,16 +64,7 @@
     <item href="005.xhtml" id="liber-05" media-type="application/xhtml+xml"/>
     <item href="appendix.xhtml" id="appendix" media-type="application/xhtml+xml"/>
     <item href="index.xhtml" id="index" media-type="application/xhtml+xml"/>
-
-    <item id="style" href="style.css" media-type="text/css"/>
-    
-    <item id="cover-img"
-	  href="images/cover.jpg" 
-          properties="cover-image"
-	  media-type="image/jpeg"/>
-    
-    <item id="aesop-img" href="images/Aesop.jpg" media-type="image/jpg"/>
-    <item id="fabulist-img" href="images/Phaedrus_Fabulist_1745_engraving.jpg" media-type="image/jpg"/>
+    <item href="conspectum.xhtml" id="conspectum" media-type="application/xhtml+xml"/>
   </manifest>
   
   <spine toc="ncx">
@@ -77,6 +82,7 @@
     <itemref idref="liber-05" />
     <itemref idref="appendix" />
     <itemref idref="index" />
+    <itemref idref="conspectum" />
   </spine>
   <guide>
     <reference type="cover" title="Scrinium" href="cover.xhtml"/>
@@ -84,7 +90,9 @@
     <reference type="dedication" title="Frontispicium" href="frontispiece.xhtml"/>
     <reference type="copyright-page" title="Frontispicium" href="editio.xhtml"/>
     <reference type="preface" title="De Phaedro Loci" href="blurbsAntiquaFuit.xhtml"/>
-    <reference type="foreword" title="De Phaedri Vita et Scriptis" href="dePhaedro.xhtml"/>
+    <reference type="foreword"
+	       title="De Phaedri Vita et Scriptis"
+	       href="dePhaedro.xhtml"/>
     <reference type="toc" title="Summarium" href="nav.xhtml"/>
     <reference type="text" title="Liber I" href="001.xhtml"/>
     <reference type="text" title="Liber II" href="002.xhtml"/>
@@ -93,5 +101,8 @@
     <reference type="text" title="Liber V" href="005.xhtml"/>
     <reference type="text" title="Appendix: Fabulae Novae" href="appendix.xhtml"/>
     <reference type="index" title="Index Poematum" href="index.xhtml"/>
+    <reference type="notes"
+	       title="Conspectum Diversarum a Dressleri Editione"
+	       href="conspectum.xhtml" />
   </guide>
 </package>
