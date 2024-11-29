@@ -96,8 +96,8 @@ dd.cite {
 
 div#preface {
     max-width: 750px;
-    padding: 16px 64px 16px 16px;
-    margin: 16px 64px 16px 16px;
+    padding: 16px 16px 16px 16px;
+    margin: 16px 16px 16px 16px;
 }
 
 .part-title {
@@ -190,4 +190,18 @@ ol.toc  a {
 
 span.ttl {
     font-style: italic;
+}
+
+.illustration {
+    width: 60%;
+}
+
+.illustration figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.illustration img {
+    width: 100%;
 }
