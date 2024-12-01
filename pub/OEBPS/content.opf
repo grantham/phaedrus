@@ -59,9 +59,24 @@
     <item id="l1-f5_barlow_Vacca-capella-ovis-et-leo"
 	  href="images/l1-f5_barlow_Vacca-capella-ovis-et-leo.png"
 	  media-type="images/png"/>
+    <item id="l1-f8-156-barlow-LupusEtGruis"
+	  href="images/l1-f8-156-barlow-LupusEtGruis.png"
+	  media-type="images/png" />
+    <item id="l1-f13-124-barlow-VulpisEtCorvus"
+	  href="images/l1-f13-124-barlow-VulpisEtCorvus.png"
+	  media-type="images/png" />
+    <item id="l1-f21-481-barlow-LeoSenexAperTaurusEtAsinus"
+	  href="images/l1-f21-481-barlow-LeoSenexAperTaurusEtAsinus.png"
+	  media-type="images/png" />
+    <item id="l1-f28-1-barlow-VulpisEtAquila"
+	  href="images/l1-f28-1-barlow-VulpisEtAquila.png"
+	  media-type="images/png" />
     <item id="l2-f6_barlow_Aquila-et-cornix"
 	  href="images/l2-f6_barlow_Aquila-et-cornix.png"
 	  media-type="images/png"/>
+    <item id="l2-f8-492-barlow-CervusAdBoves"
+	  href="images/l2-f8-492-barlow-CervusAdBoves.png"
+	  media-type="images/png" />
     <item id="l3-f12_barlow_Pullus-ad-margaritam"
 	  href="images/l3-f12_barlow_Pullus-ad-margaritam.png"
 	  media-type="images/png"/>
@@ -71,6 +86,9 @@
     <item id="l3-f7_barlow_Lupus-ad-canem"
 	  href="images/l3-f7_barlow_Lupus-ad-canem.png"
 	  media-type="images/png"/>
+    <item id="l4-f4-269-barlow-EquusEtAper"
+	  href="images/l4-f4-269-barlow-EquusEtAper.png"
+	  media-type="images/png" />
     <item id="l4-f19_barlow_Serpens-Misericordia-nociva"
 	  href="images/l4-f19_barlow_Serpens-Misericordia-nociva.png"
 	  media-type="images/png"/>
@@ -89,9 +107,15 @@
     <item id="l4-f9_barlow_Vulpes-et-caper"
 	  href="images/l4-f9_barlow_Vulpes-et-caper.png"
 	  media-type="images/png"/>
+    <item id="l5-f10-532-barlow-CanisVetulusEtVenator"
+	  href="images/l5-f10-532-barlow-CanisVetulusEtVenator.png"
+	  media-type="images/png" />
     <item id="l6-f1_barlow_Simius-et-vulpes"
 	  href="images/l6-f1_barlow_Simius-et-vulpes.png"
 	  media-type="images/png"/>
+    <item id="l6-f30-118-barlow-Fiber"
+	  href="images/l6-f30-118-barlow-Fiber.png"
+	  media-type="images/png" />
     
     <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml"/>
     <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml"/>
