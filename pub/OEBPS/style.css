@@ -134,6 +134,45 @@ span.section {
     text-align:center;
 }
 
+.liber h3 {
+    font-size: smaller;
+    font-style: italic;
+    padding: 6px;
+    margin: 6px;
+}
+.liber h2 {
+    font-size: normal;
+    font-style: normal;
+    padding: 6px;
+    margin: 6px;
+}
+.liber h1 {
+    font-size: x-large;
+    font-style: bold;
+    padding: 6px;
+    margin: 6px;
+}
+
+.liber-pagina {
+    padding: 32px 8px 32px 16px;
+    margin: 32px 8px 32px 16px;
+    text-align:center;
+    clear: both;
+    break-after: always;
+    page-break-after: always;
+}
+
+.liber-pagina h1 {
+    padding: 64px 8px 64px 16px;
+    margin: 64px 8px 64px 16px; 
+    font-size: xx-large;
+}
+
+.liber-pagina h2, h3 {
+    padding: 32px 8px 32px 16px;
+    margin: 32px 8px 32px 16px;    
+}
+
 .poem-title {
     font-weight: bold;
     font-family: sans-serif;
@@ -210,7 +249,36 @@ span.ttl {
     width: 100%;
 }
 
-#page-break {
-    clear:both;
+#editio {
+    text-indent: 16px;
+    padding: 0px 0px 0px 16px;
+}
+
+#editio h1 {
+    text-align: center;
+    font-size: larger;
+    padding: 8px 16px 8px 16px;
+}
+
+#editio a {
+    text-decoration: none;
+}
+
+#breviarium {
+    font-size: larger;
+}
+
+.cite {
+    padding: 6px 6px 6px 12px;
+}
+
+.page-break {
+    clear: both;
+    break-after: always;
     page-break-after: always;
+}
+
+.quote {
+    font-style: italic;
+    font-size: smaller;
 }
