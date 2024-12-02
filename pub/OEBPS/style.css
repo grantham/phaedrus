@@ -45,6 +45,10 @@ div.poem {
    margin: 0px 0;
 }
 
+.poem {
+    page-break-inside: avoid;
+    break-after: always;
+}
 
 .poem p {
     padding: 0px; 
@@ -204,4 +208,9 @@ span.ttl {
 
 .illustration img {
     width: 100%;
+}
+
+#page-break {
+    clear:both;
+    page-break-after: always;
 }
