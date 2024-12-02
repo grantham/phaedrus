@@ -300,6 +300,7 @@
     <item href="appendix.xhtml" id="appendix" media-type="application/xhtml+xml"/>
     <item href="index.xhtml" id="index" media-type="application/xhtml+xml"/>
     <item href="conspectum.xhtml" id="conspectum" media-type="application/xhtml+xml"/>
+    <item href="perry.xhtml" id="perry" media-type="application/xhtml+xml"/>
   </manifest>
   
   <spine toc="ncx">
@@ -318,6 +319,7 @@
     <itemref idref="appendix" />
     <itemref idref="index" />
     <itemref idref="conspectum" />
+    <itemref idref="perry" />
   </spine>
   <guide>
     <reference type="cover" title="Scrinium" href="cover.xhtml"/>
@@ -339,5 +341,8 @@
     <reference type="notes"
 	       title="Conspectum Diversarum a Dressleri Editione"
 	       href="conspectum.xhtml" />
+    <reference type="notes"
+	       title="Perry-Phaedrus Index"
+	       href="perry.xhtml" />
   </guide>
 </package>

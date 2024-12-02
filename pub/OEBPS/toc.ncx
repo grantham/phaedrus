@@ -919,6 +919,14 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
       </navLabel>
       <content src="conspectum.xhtml" />
     </navPoint>
+
+    
+    <navPoint id="navPoint-perry">
+      <navLabel>
+        <text>Perry-Phaedrus Index</text>
+      </navLabel>
+      <content src="perry.xhtml" />
+    </navPoint>
     
   </navMap>
 </ncx>
