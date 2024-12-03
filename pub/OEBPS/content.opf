@@ -25,8 +25,14 @@
     
     <item id="cover-img"
 	  href="images/cover.jpg" 
-          properties="cover-image"
+
 	  media-type="image/jpeg"/>
+
+    
+    <item id="cover-jacket"
+	  href="images/cover.svg" 
+          properties="cover-image"
+	  media-type="image/svg"/>
     
     <item id="aesop-img" href="images/Aesop.jpg" media-type="image/jpg"/>
     <item id="fabulist-img"

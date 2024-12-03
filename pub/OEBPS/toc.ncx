@@ -13,7 +13,7 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
     <meta name="dtb:depth" content="2" />
     <meta name="dtb:totalPageCount" content="0" />
     <meta name="dtb:maxPageNumber" content="0" />
-    <meta name="cover" content="cover-img" />
+    <meta name="cover" content="cover-jacket" />
   </head>
   <docTitle>
     <text>Fabulae Aesopiae</text>
