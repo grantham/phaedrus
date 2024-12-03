@@ -88,15 +88,31 @@ figcaption#frontis-caption {
     text-align: center;
 }
 
+#aesop {
+    width: 100%;
+}
+
+#aesop-fig {
+    width: 100%;
+    align: center;
+}
+
+img#aesop-image {
+    align: center;
+    width: 60%;
+}
+
+figcaption#aesop-caption {
+    text-align: center;
+    font-size: smaller;
+    margin-top: 12px;
+    padding-bottom: 12px;
+}
+
 div#blurbs {
     padding: 64px;
     margin: 64px;
 }
-
-dd.cite {
-    font: italic smaller sans-serif;
-}
-
 
 div#preface {
     max-width: 750px;
@@ -262,6 +278,13 @@ span.ttl {
 
 #editio a {
     text-decoration: none;
+    font-family: monospace;
+}
+
+#editio dd {
+    font-size: smaller;
+    font-family: serif;
+	
 }
 
 #breviarium {
@@ -270,6 +293,10 @@ span.ttl {
 
 .cite {
     padding: 6px 6px 6px 12px;
+}
+
+dd.cite {
+    font: italic smaller sans-serif;
 }
 
 .page-break {

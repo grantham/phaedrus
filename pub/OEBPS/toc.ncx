@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
-<!--
-    XML file that handles the navigational table of contents in the e-book
+  <!--
+      XML file that handles the navigational table of contents in the e-book
 
 It is used to establish navigation between elements within the book and where the elements appear within the navigational table of contents.
 
 The use of .ncx files has been deprecated as of EPUB3, but many publishers still include it so that EPUB2 reading systems will still be able to process the document.
--->
+  -->
 
   <head>
     <meta name="dtb:uid" content="urn:uuid:54d963ab-f6fd-4d0b-81c4-623658cae31b" />
@@ -28,6 +28,10 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
       <content src="titlepage.xhtml" />
     </navPoint>
 
+    <navPoint id="toc-verso">
+      <navLabel><text>Frontispicium</text></navLabel>
+      <content src="verso.xhtml"/>
+    </navPoint>
     
     <navPoint id="toc-frontispiece">
       <navLabel><text>Frontispicium</text></navLabel>
@@ -47,11 +51,14 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
     <content src="./blurbsAntiquaFuit.xhtml"/></navPoint>
 
 
+    <navPoint id="toc-toc">
+      <navLabel><text>Summarium</text></navLabel>
+      <content src="nav.xhtml"/>
+    </navPoint>
+
     <navPoint id="toc-0">
       <navLabel><text>DE PHAEDRI VITA ET SCRIPTIS</text></navLabel>
       <content src="dePhaedro.xhtml"/>
-      
-      
       <navPoint
 	  id="toc-0-vita">
 	<navLabel><text>Vita</text></navLabel><content
@@ -59,8 +66,7 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
 	<navPoint
 	    id="toc-0-breviarium">
 	  <navLabel><text>Breviarium</text></navLabel><content
-	  src="dePhaedro.xhtml#breviarium"/></navPoint>
-
+	  src="dePhaedro.xhtml#breviarium"/></navPoint>	  
     </navPoint>
 
     <navPoint id="navPoint-1">
