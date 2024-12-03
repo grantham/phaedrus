@@ -929,7 +929,7 @@ The use of .ncx files has been deprecated as of EPUB3, but many publishers still
     
     <navPoint id="navPoint-perry">
       <navLabel>
-        <text>Perry-Phaedrus Index</text>
+        <text>Perrii index Aesiopicae cum Phaedro confertur</text>
       </navLabel>
       <content src="perry.xhtml" />
     </navPoint>

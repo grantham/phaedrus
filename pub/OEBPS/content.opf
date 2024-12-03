@@ -352,7 +352,7 @@
 	       title="Conspectum Diversarum a Dressleri Editione"
 	       href="conspectum.xhtml" />
     <reference type="notes"
-	       title="Perry-Phaedrus Index"
+	       title="Perrii index Aesiopicae cum Phaedro confertur"
 	       href="perry.xhtml" />
   </guide>
 </package>
